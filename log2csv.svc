@@ -1,0 +1,38 @@
+########################################### VARIABLES 
+####### AlgAN and ALN THICKNESS 
+
+set alnth=0.001
+set algth=0.020
+
+# Al composition
+set xc=0.22
+set width=100
+## Device lengths
+set Lg=0.3
+set Lgs=0.5
+set Lsd=3
+set Ls=1
+set Ld=1
+
+set len=4*$Lsd+2*$Ld+3*$Ls
+
+
+set x0=0
+set x1=$x0+$Ls
+set x2=$x1+$Lgs
+set x3=$x2+$Lg
+set x4=$x1+$Lsd
+set x5=$x4+$Ld
+set x6=$x5+$Lsd-$Lg-$Lgs
+set x7=$x6+$Lg
+set x8=$x7+$Lgs
+set x9=$x8+$Ls
+set x10=$x9+$Lgs
+set x11=$x10+$Lg
+set x12=$x11+$Lsd-$Lg-$Lgs
+set x13=$x12+$Ld
+set x14=$x13+$Lsd-$Lg-$Lgs
+set x15=$x14+$Lg
+set x16=$x15+$Lgs
+set x17=$x16+$Ls
+
